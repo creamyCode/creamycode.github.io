@@ -2,12 +2,12 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: creamycode
 logo:
 author: themefisher
 description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
+email: creamycode87@gmail.com
+phone: +82 010 8764 8602
 address: 125/A, CA Commercial Area, California, USA
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
@@ -15,7 +15,7 @@ menu:
   - { name: About, link: "/about" }
   - { name: Blog, link: "/blog" }
   - { name: Portfolio, link: "/portfolio" }
-  - { name: Contact, link: "/contact" }
+  # - { name: Contact, link: "/contact" }
 
 #-------------------------------
 # Google Analytics Section
@@ -36,13 +36,13 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m <br> Christoher <br> Full Stack Developer
 
 social:
-  - { icon: "ti-facebook", link: "#" }
-  - { icon: "ti-instagram", link: "#" }
-  - { icon: "ti-dribbble", link: "#" }
-  - { icon: "ti-twitter", link: "#" }
+  # - { icon: "ti-facebook", link: "#" }
+  # - { icon: "ti-instagram", link: "#" }
+  # - { icon: "ti-dribbble", link: "#" }
+  # - { icon: "ti-twitter", link: "#" }
 
 #-------------------------------
 # About (Section and Page)
@@ -99,10 +99,10 @@ skills:
 experience-title: Experience
 experience:
   - {
-      name: Junior UX Designer,
+      name: Web Developer,
       icon: "icon-1.png",
-      date: "Jan 2007 - Feb 2009",
-      organization: "WEBEX",
+      date: "2013.11.04 ~ 2018.01.12",
+      organization: "Openit",
     }
   - {
       name: UX & UI Designer,
@@ -146,26 +146,26 @@ education:
 #-------------------------------
 # Services Section
 
-services-title: Services
-services:
-  - {
-      name: UI Design,
-      icon: ti-palette,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
-    }
-  - {
-      name: UX Design,
-      icon: ti-vector,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: true, # Add true to select section
-    }
-  - {
-      name: Interaction Design,
-      icon: ti-panel,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
-    }
+# services-title: Services
+# services:
+#   - {
+#       name: UI Design,
+#       icon: ti-palette,
+#       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+#       active: ,# Add true to select section
+#     }
+#   - {
+#       name: UX Design,
+#       icon: ti-vector,
+#       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+#       active: true, # Add true to select section
+#     }
+#   - {
+#       name: Interaction Design,
+#       icon: ti-panel,
+#       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+#       active: ,# Add true to select section
+#     }
 
 #-------------------------------
 # Portfolio (Section and Page)
