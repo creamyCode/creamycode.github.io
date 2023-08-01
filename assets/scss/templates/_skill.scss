@@ -1,0 +1,16 @@
+.section.skill {
+    background-color: $secondary-color;
+}
+
+.skill-badge {
+    display: inline-block;
+    background-color: $primary-color;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+  
+.skill-line:not(:last-child) {
+    margin-bottom: 20px;
+}
