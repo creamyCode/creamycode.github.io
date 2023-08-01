@@ -218,59 +218,34 @@ portfolio-home-items:
 
 # Portfolio Page
 portfolio-label:
-  - { title: "UI/UX Design", type: "design" }
-  - { title: "BRANDING", type: "branding" }
-  - { title: "ILLUSTRATION", type: "illustration" }
+  - { title: "Wins (~ing)", type: "wins" }
+  - { title: "Openit (2013.11.04 ~ 2018.01.12)", type: "openit" }
+  - { title: "개인 프로젝트", type: "study" }
 
 portfolio-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
+  - image: "assets/images/portfolio/sniper-rms-1.jpg"
+    title: "SNIPER-RMS"
+    range: "2019.01 ~ ing"
+    url: "sniper-rms.html"
+    type: "Wins"
     portfolio-type:
-      - type: "design"
-      - type: "illustration"
+      - type: "wins"
 
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
+  - image: "assets/images/portfolio/devops-1.png"
+    title: "Team Devops 구성"
+    range: "2020.01 ~ 2021.12"
+    url: "devops.html"
+    type: "Wins"
     portfolio-type:
-      - type: "branding"
+      - type: "wins"
 
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
+  - image: "assets/images/portfolio/ansible-1.png"
+    title: "AnsibleModule"
+    range: "2019.07 ~ 2020.06"
+    url: "devops.html"
+    type: "Wins"
     portfolio-type:
-      - type: "illustration"
-
-  - image: "assets/images/portfolio/item-6.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-8.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-
-  - image: "assets/images/portfolio/item-5.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
+      - type: "wins"
 
 #-------------------------------
 # Testimonials Section
