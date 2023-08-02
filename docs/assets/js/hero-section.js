@@ -7,10 +7,10 @@
     const diffMonth = totalDiffMonth % 12
 
     const str = [
-        `올해로    ${diffYear}년 ${diffMonth ? `${diffMonth}개월 ` : ''}차...            아직도 개발이 즐겁습니다.`.split(''),
-        `이슈를 해결했을때의 희열 . . .   `.split(''),
-        `사용자로부터 좋은 피드백을 받았을때의 기쁨 .  .  .   `.split(''),
-        `끝까지 봐주신 형님, 누님들 감사합니다 ~ !!!                    `.split('')
+        `올해로    개발자 된 지    ${diffYear}년 ${diffMonth ? `${diffMonth}개월 ` : ''}차...   `.split(''),
+        `개발의 길은 멀고도 험하네 . . .   `.split(''),
+        `그 와중에 팀장도 맡고있네 .  .  .   `.split(''),
+        `아    .     .     .   재밌다 !!!                                          `.split(''),
     ];
 
     let idx = 1;
@@ -36,6 +36,6 @@
                 idx = 1;
                 strIdx = strIdx < str.length - 1 ? strIdx + 1 : 0;
             }
-        }, 200)
+        }, 100)
     }, 3000)
 })(window.jQuery);
