@@ -21,7 +21,7 @@
   {% endfor %}
 
   <!-- Main Stylesheet -->
-  <link href="{{ '/assets/scss/style.css' | relative_url }}" rel="stylesheet">
+  <link href="{{ '/assets/scss/style.css' | relative_url }}?{{ site.time | date: '%s%N' }}" rel="stylesheet">
 
   <!--Favicon-->
   <link rel="shortcut icon" href="{{ '/assets/images/favicon.png' | relative_url }} " type="image/x-icon">
@@ -34,4 +34,5 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
   <script src="{{ '/assets/plugins/moment/moment.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/plugins/search-bar/simple-jekyll-search.min.js' | relative_url }}"></script>
 </head>

@@ -55,34 +55,6 @@ blurb-btn-name: know more
 
 # About Page
 
-# Work Process Section
-work-process:
-  - title: "Research and Plan"
-    icon: "assets/images/icons/plan.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-  - title: "Design and Develop"
-    icon: "assets/images/icons/design.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-  - title: "Deliver"
-    icon: "assets/images/icons/print.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-# My Team Section
-# team:
-#   - title: "Jack Schenziwe"
-#     image: "assets/images/team/member-1.png"
-#     designation: "Project Manager"
-
-#   - title: "Julias Carlie"
-#     image: "assets/images/team/member-2.png"
-#     designation: "Web Developer"
-
-#   - title: "John Doe"
-#     image: "assets/images/team/member-3.png"
-#     designation: "Designer"
-
 #-------------------------------
 # Language Section
 
@@ -121,80 +93,6 @@ etc-skills:
 
 #-------------------------------
 # Skills Section End
-
-#-------------------------------
-# Exprerience Section
-
-experience-title: Experience
-experience:
-  - {
-      name: Web Developer,
-      icon: "icon-1.png",
-      date: "2013.11.04 ~ 2018.01.12",
-      organization: "Openit",
-    }
-  - {
-      name: UX & UI Designer,
-      icon: "icon-2.png",
-      date: "Mar 2009 - Aug 2014",
-      organization: "AUGMEDIX",
-    }
-  - {
-      name: Senior UI Designer,
-      icon: "icon-3.png",
-      date: "Sep 2014 - Present",
-      organization: "THEMEFISHER",
-    }
-
-#-------------------------------
-# Education Section
-
-# education-title: Education
-# education:
-#   - {
-#       name: Marters in UX Design,
-#       date: "2006",
-#       organization: "Masassusets Institute of Technology",
-#     }
-#   - {
-#       name: Honours in Fine Arts,
-#       date: "2004",
-#       organization: "Harvard University",
-#     }
-#   - {
-#       name: Higher Secondary Certificat,
-#       date: "2000",
-#       organization: "Cardiff School",
-#     }
-#   - {
-#       name: Secondary School Certificate,
-#       date: "1998",
-#       organization: "Cardiff School",
-#     }
-
-#-------------------------------
-# Services Section
-
-# services-title: Services
-# services:
-#   - {
-#       name: UI Design,
-#       icon: ti-palette,
-#       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-#       active: ,# Add true to select section
-#     }
-#   - {
-#       name: UX Design,
-#       icon: ti-vector,
-#       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-#       active: true, # Add true to select section
-#     }
-#   - {
-#       name: Interaction Design,
-#       icon: ti-panel,
-#       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-#       active: ,# Add true to select section
-#     }
 
 #-------------------------------
 # Portfolio (Section and Page)

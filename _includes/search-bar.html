@@ -1,0 +1,30 @@
+<!-- HTML elements for search -->
+<div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div id="search-bar">
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <input id="search-input" type="text" placeholder="Search..." value=""/>
+          <div id="search-result"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+    window.simpleJekyllSearch = new SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('search-result'),
+      json: '{{ site.baseurl }}/search.json',
+      searchResultTemplate: '<a class="result-item" href="{url}" title="{desc}"><div class="title">{title}</div><div class="description">{tags}</div></a>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'tags') {
+            return value.split(',').map((tag) => ('<span class="tag">' + tag + '</span>')).join(' ')
+        }
+      },
+      noResultsText: '<div class="result-item">No results found</div>',
+      limit: 10,
+      fuzzy: false,
+      exclude: ['Welcome']
+    })
+  </script>
