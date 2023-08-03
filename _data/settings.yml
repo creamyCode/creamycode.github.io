@@ -116,53 +116,82 @@ portfolio-home-items:
 
 # Portfolio Page
 portfolio-label:
-  - { title: "Wins (~ing)", type: "wins" }
-  - { title: "Openit (2013.11.04 ~ 2018.01.12)", type: "openit" }
+  - { title: "Wins (2018.04 ~ ing)", type: "wins" }
+  - { title: "Openit (2013.11 ~ 2018.01)", type: "openit" }
   - { title: "개인 프로젝트", type: "study" }
 
 portfolio-items:
   - image: "assets/images/portfolio/sniper-rms-1.jpg"
     title: "SNIPER-RMS"
-    range: "2019.01 ~ ing"
+    range: "2019.01 ~ 현재"
     url: "sniper-rms.html"
-    type: "Wins"
+    stack: ['Angular', 'Ngrx', 'NestJS', 'Mariadb', 'SocketIO', 'Jest', 'Cypress']
     portfolio-type:
       - type: "wins"
+    summary: "
+    - 현재 팀의 메인 시스템으로, 보안장비들의 정책관리 시스템이며, 주요기능으로 센서관리, 정책가져오기, 정책배포, 정책편집기능을 제공한다.<br>
+    - i18n 일본어지원 <br>
+    "
 
   - image: "assets/images/portfolio/devops-1.png"
-    title: "Team Devops 구성"
+    title: "Team Devops & CI/CD 구성"
     range: "2020.01 ~ 2021.12"
     url: "devops.html"
-    type: "Wins"
+    stack: ['Docker', 'Portainer', 'Gitlab CI/CD', 'Ansible',  'python']
     portfolio-type:
       - type: "wins"
+    summary: "
+    - Docker 기반 개발환경 구성 및 Ansible을 통한 업무 자동화<br>
+    - Gitlab CI/CD 및 Ansible을 통해 제품 test(lint, unit, e2e), packaging, deploy 과정 자동화<br>
+    "
 
   - image: "assets/images/portfolio/ansible-1.png"
-    title: "AnsibleModule"
+    title: "AnsibleModule 개발"
     range: "2019.07 ~ 2020.06"
     url: "devops.html"
-    type: "Wins"
+    stack: ['Ansible',  'python']
     portfolio-type:
       - type: "wins"
+    summary: "
+    - 보안장비의 기능별 Ansible 모듈 개발<br>
+    - Playbook 기반 모듈 테스트케이스 개발
+    "
 
-#-------------------------------
-# Testimonials Section
+  - image: "assets/images/portfolio/tango1.jpg"
+    title: "SKT TANGO DW 운영"
+    range: "2017.01 ~ 2018.01"
+    url: "tango.html"
+    stack: ['Hadoop', 'Spark', 'Grafana', 'Python']
+    portfolio-type:
+      - type: "openit"
+    summary: "
+    &nbsp;SKT의 여러 Legacy System Data를 수집(일평균 4TB)하여 ODS, DW, DM 각각의 단계별 데이터로 가공하고 관리하는 DW 운영 및 해당 데이터를 조회할 수 있는 WorkBench WAS 운영
+    "
 
-# testimonial-items:
-#   - name: "Jesica Gomez"
-#     image: "assets/images/testimonial/client-1.png"
-#     designation: "CEO, Funder"
-#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - image: "assets/images/portfolio/openclib2.jpg"
+    title: "Openclib 개발"
+    range: "2016.01 ~ 2016.09"
+    url: "openclib.html"
+    stack: ['NodeJS', 'AngularJS', 'Electron', 'Express', 'jquery', 'bootstrap', 'mysql', 'SocketIO']
+    portfolio-type:
+      - type: "openit"
+    summary: "
+    - OpenTok 그룹웨어 고도화 프로젝트<br>
+    - 제품 기획부터 개발까지 모두 참여
+    "
 
-#   - name: "Jesica Gomez"
-#     image: "assets/images/testimonial/client-1.png"
-#     designation: "CEO, Funder"
-#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-#   - name: "Jesica Gomez"
-#     image: "assets/images/testimonial/client-1.png"
-#     designation: "CEO, Funder"
-#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - image: "assets/images/portfolio/opentok1.png"
+    title: "오픈톡 그룹웨어 개발 및 유지보수"
+    range: "2014.01 ~ 2016.04"
+    url: "opentok.html"
+    stack: ['spring', 'jsp', 'jquery', 'bootstrap', 'mysql', 'SocketIO']
+    portfolio-type:
+      - type: "openit"
+    summary: "
+    - 주요기능 개발<br>
+    - GS 인증 대응<br>
+    - 고객사 그룹웨어 구축
+    "
 
 #-------------------------------
 # Client Slider Section

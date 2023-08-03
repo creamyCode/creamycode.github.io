@@ -21,22 +21,31 @@ title: Portfolio
     </div>
     <div class="row shuffle-wrapper">
       {% for item in site.data.settings.portfolio-items %}
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{% for portfolio in item.portfolio-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ portfolio.type }}&quot;{% endfor %}]">
-        <div class="position-relative rounded hover-wrapper">
-          <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-          <div class="hover-overlay">
-            <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="{{ item.url }}">view project</a>
-            </div>
+
+      <div class="col-lg-6 col-sm-12 mb-4 shuffle-item" data-groups="[{% for portfolio in item.portfolio-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ portfolio.type }}&quot;{% endfor %}]">
+        <article class="card shadow">
+          <img class="rounded card-img-top mb-2" src="{{ site.baseurl }}/{{ item.image }}" alt="{{ item.title }}">
+          <div class="card-body">
+            <h3 class="card-title mb-0">
+              <a class="text-dark" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            </h3>
+            <p class="mb-0">{{ item.range }}</p>
+
+            {% if item.stack %} 
+            <div class="mb-3">
+              {% for stack in item.stack %}
+                <span class="tag">{{stack}}</span>
+              {% endfor %}
+            </div>  
+            {% endif %}
+
+            {% if item.summary %}
+            <p class="font-secondary" style="line-height: 1.4;">{{ item.summary }}</p>
+            {% endif %}
+            <!-- <p class="card-text">{% assign curlyend = '}' %}{{ item.excerpt | markdownify | strip_html | replace: "{% include JB/setup %", "" | replace: curlyend, "" | truncatewords: 30 }}</p> -->
+            <a href="{{ item.url | relative_url }}" class="btn btn-xs btn-primary">Read More</a>
           </div>
-        </div>
-        <span class="portfolio-label">
-          [{{ item.type }}]
-          {{ item.title }} 
-          {% if item.range %} 
-            ( {{ item.range }} )
-          {% endif %}
-        </span>
+        </article>
       </div>
       {% endfor %}
     </div>
