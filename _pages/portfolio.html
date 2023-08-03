@@ -8,14 +8,20 @@ title: Portfolio
     <div class="row mb-5">
       <div class="col-12">
         <div class="btn-group btn-group-toggle justify-content-center d-flex" data-toggle="buttons">
-          <label class="btn btn-sm btn-primary active">
+          <label class="btn btn-sm btn-primary active" style="display: flex; align-items: center;">
             <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
           </label>
           {% for label in site.data.settings.portfolio-label %}
-          <label class="btn btn-sm btn-primary">
+          <label class="btn btn-sm btn-primary"  style="display: flex; align-items: center; flex-flow: column;">
             <input type="radio" name="shuffle-filter" value="{{ label.type }}" />{{ label.title }}
+            {% if label.range %} 
+            <span style="display: block; font-size: 12px;">{{ label.range }}</span>
+            {% endif %}
           </label>
           {% endfor %}
+          <label class="btn btn-sm btn-primary"  style="display: flex; align-items: center;">
+            <input type="radio" name="shuffle-filter" value="study" />개인
+          </label>
         </div>
       </div>
     </div>
@@ -27,7 +33,7 @@ title: Portfolio
           <img class="rounded card-img-top mb-2" src="{{ site.baseurl }}/{{ item.image }}" alt="{{ item.title }}">
           <div class="card-body">
             <h3 class="card-title mb-0">
-              <a class="text-dark" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              <a class="text-dark font-tertiary" href="{{ item.url | relative_url }}">{{ item.title }}</a>
             </h3>
             <p class="mb-0">{{ item.range }}</p>
 

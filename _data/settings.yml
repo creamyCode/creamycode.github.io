@@ -95,30 +95,11 @@ etc-skills:
 # Skills Section End
 
 #-------------------------------
-# Portfolio (Section and Page)
-
-# Portfolio Home Section
-portfolio-home-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
-
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
-
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
-
-  - image: "assets/images/portfolio/item-4.png"
-    url: "#"
-
-  - image: "assets/images/portfolio/item-5.png"
-    url: "#"
 
 # Portfolio Page
 portfolio-label:
-  - { title: "Wins (2018.04 ~ ing)", type: "wins" }
-  - { title: "Openit (2013.11 ~ 2018.01)", type: "openit" }
-  - { title: "개인 프로젝트", type: "study" }
+  - { title: "Wins", type: "wins", range: "2018.04 ~ ing" }
+  - { title: "Openit", type: "openit", range: "2013.11 ~ 2018.01" }
 
 portfolio-items:
   - image: "assets/images/portfolio/sniper-rms-1.jpg"

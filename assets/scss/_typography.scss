@@ -6,6 +6,70 @@
   font-weight: normal;
 }
 
+/*
+Copyright (c) 2021 Kil Hyung-jin, with Reserved Font Name Pretendard.
+https://github.com/orioncactus/pretendard
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+*/
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 900;
+	src: local('Pretendard Black'), url('/assets/fonts/pretendard/woff2/Pretendard-Black.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 800;
+	src: local('Pretendard ExtraBold'), url('/assets/fonts/pretendard/woff2/Pretendard-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 700;
+	src: local('Pretendard Bold'), url('/assets/fonts/pretendard/woff2/Pretendard-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 600;
+	src: local('Pretendard SemiBold'), url('/assets/fonts/pretendard/woff2/Pretendard-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 500;
+	src: local('Pretendard Medium'), url('/assets/fonts/pretendard/woff2/Pretendard-Medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 400;
+	src: local('Pretendard Regular'), url('/assets/fonts/pretendard/woff2/Pretendard-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 300;
+	src: local('Pretendard Light'), url('/assets/fonts/pretendard/woff2/Pretendard-Light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 200;
+	src: local('Pretendard ExtraLight'), url('/assets/fonts/pretendard/woff2/Pretendard-ExtraLight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 100;
+	src: local('Pretendard Thin'), url('/assets/fonts/pretendard/woff2/Pretendard-Thin.woff2') format('woff2');
+}
+
+
 body {
   line-height: 1.2;
   font-family: $primary-font;
@@ -27,7 +91,7 @@ p, .paragraph {
 
 h1,h2,h3,h4,h5,h6 {
   color: $text-color-dark;
-  font-family: $secondary-font;
+  font-family: $tertiary-font;
   line-height: 1.2;
 }
 
