@@ -1,6 +1,15 @@
 [
   
     {
+      "title"    : "monorepo",
+      "category" : "blog",
+      "tags"     : "Monorepo, nx, pnpm",
+      "url"      : "/blog/2023/08/30/monorepo/",
+      "desc"     : "monorepo 구조는 두 개 이상의 프로젝트가 동일한 저장소에 저장되는 소프트웨어 개발 전략",
+      "date"     : "2023-08-30 19:21:00 +0900"
+    } ,
+  
+    {
       "title"    : "Jekyll과 github page를 이용한 블로그 2회차 구성기",
       "category" : "blog",
       "tags"     : "Blog, github page, Jekyll",

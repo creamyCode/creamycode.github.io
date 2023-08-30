@@ -19,15 +19,17 @@ blockquote > p {
 
 .content {
   * {
+    li {
+      margin-bottom: 2px;
+    }
     margin-bottom: 15px;
   }
 
   strong {
     font-family: $secondary-font;
-    font-size: 22px;
-    font-weight: normal;
+    font-weight: bold;
     color: $text-color-dark;
     display: inherit;
-    line-height: 1.5;
+    margin-bottom: 2px;
   }
 }
