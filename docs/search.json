@@ -1,6 +1,15 @@
 [
   
     {
+      "title"    : "nx를 이용한 react, nestjs 기반 monorepo project 구성",
+      "category" : "blog",
+      "tags"     : "Monorepo, nx, pnpm, react, nestjs",
+      "url"      : "/blog/2023/08/30/web_project_make/",
+      "desc"     : "tst",
+      "date"     : "2023-08-30 20:24:00 +0900"
+    } ,
+  
+    {
       "title"    : "monorepo",
       "category" : "blog",
       "tags"     : "Monorepo, nx, pnpm",
